@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CDEDB7"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/anhnen"
+        />
+
+    <EditText
+        android:id="@+id/edt_cUser"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button"
+        android:inputType="textAutoComplete"
+        android:textColor="#68F789" />
+
+    <EditText
+        android:id="@+id/edt_cPass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:password="true"
+        android:background="@drawable/button"
+        android:inputType="textPassword"
+        android:textColor="#68F789" />
+
+    <CheckBox
+        android:id="@+id/checkboxPass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="remember password ?"></CheckBox>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Forgot password ?"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btn_singin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+
+            android:background="@drawable/buttonn"
+            android:text="-> Sing in"
+            app:backgroundTint="#61ED9A" />
+
+
+        <Button
+            android:id="@+id/createaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonn"
+            android:text="Create account"
+            app:backgroundTint="#61ED9A" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
